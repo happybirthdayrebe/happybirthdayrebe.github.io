@@ -125,3 +125,19 @@ flechaarriba.addEventListener("click",function(){
         }
     }
 })
+
+
+function openPopup() {
+    document.getElementById("popup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+
+  function continueStory() {
+    window.location.href = "album.html"; // Redirigir a la nueva página
+  }
+
+  // Mostrar el popup después de 3 segundos
+  setTimeout(openPopup, 3000);
